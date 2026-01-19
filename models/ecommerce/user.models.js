@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema(
     {
-        ussername : {
+        username : {
             type : String,
             required : true,
             unique : true,
@@ -19,6 +19,7 @@ const userSchema = new mongoose.Schema(
         password : {
             type : String,
             required: true,
+            select: false,
             minlength : 8,
             trim :true,
             select : false //prevet from password to leak
