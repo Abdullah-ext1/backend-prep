@@ -10,3 +10,6 @@ Answer:Enum enforces a fixed set of allowed values at the schema level, preventi
  Prevents invalid roles
  Protects authorization logic
  Production-ready feature
+
+## What is a Controller?
+A controller is a function that decides what to do when a request comes.
